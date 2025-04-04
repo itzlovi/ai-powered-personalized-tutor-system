@@ -1,32 +1,80 @@
-# AI-Powered Personalized Tutor System
+# AI-Powered Personalized Tutor System 🚀
 
-![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green)
-![ML](https://img.shields.io/badge/-Machine%20Learning-orange)
-![NLP](https://img.shields.io/badge/-NLP-yellowgreen)
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/ML-ScikitLearn-orange?logo=scikit-learn" alt="ML">
+  <img src="https://img.shields.io/badge/NLP-NLTK%20%7C%20SpaCy-yellowgreen" alt="NLP">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</div>
 
-## Overview
-An intelligent adaptive learning platform that leverages cutting-edge AI technologies to deliver personalized education for K-12 students. Developed for **Intel® Unnati Industrial Training 2025**.
+## 📌 Overview
+An intelligent tutoring system developed for **Intel® Unnati Industrial Training 2025** that personalizes K-12 education using AI/ML. The system adapts to each student's learning level and creates customized study materials.
 
-## Key Features ✨
+## ✨ Features
+- **Smart Predictions**: Forecasts student performance (85% accuracy target)
+- **Adaptive Learning**: Adjusts content difficulty in real-time
+- **Personalized Paths**: Recommends ideal study materials
+- **Promotion Advisor**: Suggests class promotion with 50% confidence
+- **NLP Magic**: Simplifies/complexifies text automatically
 
-| Feature | Technology | Target Accuracy |
-|---------|------------|-----------------|
-| Performance Prediction | Random Forest, XGBoost | 85% |
-| Learning Path Recommendation | Content-Based Filtering | 90% |
-| Dynamic Content Adaptation | NLP (NLTK, SpaCy) | 100% |
-| Promotion Decision System | Rule-Based + ML | 50% |
-
-## Installation 🛠️
-
+## 🛠️ Installation
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/ai-tutor-system.git
-cd ai-tutor-system
+# 1. Clone the repo
+git clone https://github.com/yourusername/ai-tutor.git
+cd ai-tutor
 
-# Create virtual environment
+# 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install dependencies
+# 3. Install requirements
 pip install -r requirements.txt
+🚀 How to Use
+Command Line:
+
+bash
+Copy
+python src/main.py --student ST001 --subject Math
+Web Interface:
+
+bash
+Copy
+streamlit run src/streamlit_app.py
+📂 Project Structure
+Copy
+ai-tutor/
+├── data/               # All datasets
+├── docs/               # Documentation
+├── models/             # Trained ML models
+├── src/
+│   ├── core/           # Main logic
+│   ├── utils/          # Helpers
+│   ├── main.py         # CLI app
+│   └── app.py         # Web interface
+├── tests/              # Test cases
+├── README.md           # This file
+└── requirements.txt    # Dependencies
+🤖 Technologies Used
+Machine Learning: Scikit-learn, TensorFlow
+
+Natural Language Processing: NLTK, SpaCy
+
+Data Handling: Pandas, NumPy
+
+Visualization: Matplotlib, Plotly
+
+Web Framework: Streamlit
+
+🤝 Contribute
+Fork the project
+
+Create your branch (git checkout -b cool-feature)
+
+Commit changes (git commit -m 'Added cool feature')
+
+Push (git push origin cool-feature)
+
+Open a Pull Request
+
+📜 License
+MIT License - See LICENSE file

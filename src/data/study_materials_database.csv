@@ -1,0 +1,13 @@
+level,subject,material_type,resource_name,difficulty,link,tags
+Beginner,Math,Video,Basic Arithmetic Concepts,Easy,https://example.com/math-basic,"foundation, basics"
+Beginner,Math,Book,Mathematics for Beginners,Easy,https://example.com/math-book,"starter, fundamentals"
+Beginner,Science,Video,Introduction to Science,Easy,https://example.com/science-intro,"basic concepts"
+Beginner,English,Book,Simple English Stories,Easy,https://example.com/english-stories,"reading, beginner"
+Intermediate,Math,Video,Algebra Fundamentals,Medium,https://example.com/algebra,"equations, algebra"
+Intermediate,Math,Exercise,Geometry Problems,Medium,https://example.com/geometry-problems,"shapes, practice"
+Intermediate,Science,Video,Chemistry Basics,Medium,https://example.com/chemistry-basics,"elements, reactions"
+Intermediate,English,Book,Grammar Rules,Medium,https://example.com/grammar-rules,"rules, writing"
+Advanced,Math,Video,Trigonometry Masterclass,Hard,https://example.com/trigonometry,"angles, advanced"
+Advanced,Math,Book,Calculus Concepts,Hard,https://example.com/calculus,"derivatives, integrals"
+Advanced,Science,Video,Quantum Physics,Hard,https://example.com/quantum-physics,"particles, theory"
+Advanced,English,Book,Essay Writing Techniques,Hard,https://example.com/essay-writing,"composition, advanced"

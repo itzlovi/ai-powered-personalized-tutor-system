@@ -1,0 +1,10 @@
+date,test_score,predicted_level,subjects_tested,time_spent_studying
+2025-03-28,35,Beginner,"Math, English",2
+2025-03-28,55,Intermediate,"Math, Science",4
+2025-03-28,75,Advanced,"Math, English, Science",6
+2025-04-03,35,Beginner,"Math, English",2
+2025-04-03,55,Intermediate,"Math, Science",4
+2025-04-03,75,Advanced,"Math, English, Science",6
+2025-04-03,35,Beginner,"Math, English",2
+2025-04-03,55,Intermediate,"Math, Science",4
+2025-04-03,75,Advanced,"Math, English, Science",6

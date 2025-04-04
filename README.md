@@ -30,3 +30,23 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+├── data/                   # Synthetic and real datasets
+│   ├── raw/                # Raw data files
+│   └── processed/          # Processed data
+├── docs/                   # Documentation
+├── models/                 # Trained models
+├── notebooks/              # Jupyter notebooks for EDA
+├── src/
+│   ├── core/               # Main application logic
+│   │   ├── adaptor/        # Content adaptation
+│   │   ├── engine/         # Recommendation engine
+│   │   └── predictor/      # ML models
+│   ├── utils/              # Helper functions
+│   ├── main.py             # CLI entry point
+│   └── streamlit_app.py    # Web interface
+├── tests/                  # Unit tests
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
